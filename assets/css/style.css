@@ -1,0 +1,205 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#menu {
+    background-color: #f1f1f1;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0%;
+}
+
+#youtubeicone {
+    padding: 0px 24px 0px 24px;
+}
+
+#end {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+#end img {
+    margin-right: 24px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+.video {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.video iframe {
+    width: 69%;
+    height: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#conteiner-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#canalimg {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin-left: 28px;
+    margin-right: 5px;
+}
+
+.info p {
+    color: #f1f1f1;
+    margin: 0;
+}
+
+#canallink {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    color: #f1f1f1;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+.imgbutton {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 30%;
+    background-color: #f1f1f1;
+}
+
+.imgbutton img {
+    margin-right: 5px;
+}
+
+h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f1f1f1;
+
+}
+
+.kyotoinfo {
+    margin-left: 33px;
+    color: #f1f1f1;
+}
+
+.kyotoinfo a {
+    color: #3E46FF;
+}
+
+.recommended-videos {
+    display: flex;
+    flex-direction: column;
+    margin-top: -52%;
+    margin-left: 72%;
+}
+
+
+.recommended-video {
+    display: block;
+    clear: both;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.recommended-video img {
+    width: 42%;
+    height: 16%;
+    margin-right: 3%;
+    border-radius: 7%;
+    float: left;
+}
+
+.video-info {
+    flex: 1;
+}
+
+.video-info h4 {
+    margin: 0;
+    word-wrap: break-word;
+    color: #f1f1f1;
+}
+
+.video-info p {
+    margin: 0;
+    color: #f1f1f1;
+}
+
+.recommended-video a {
+    text-decoration: none;
+    color: black;
+    font-size: 85%;
+}
+
+a:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
